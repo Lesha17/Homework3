@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Homework3.MainForm">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="frq_viewmodel" Type="Homework3.ViewModels.FrqViewModel">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.235" Y="0.073" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="settings" Type="Homework3.Model.ISettings">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.402" Y="0.047" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>raEiAEXAACAAABAAkkGASQgiCAiAADACIggCwgCIKgA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="frq_viewmodel" />
+      <Field Name="settings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Homework3.Program">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Homework3.SettingsForm">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAQCAAAIAAACAEAAAAAAEAA=</HashCode>
+      <FileName>SettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Homework3.ViewModels.FrqViewModel">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="Data" Type="Homework3.Model.IFrqData">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.093" Y="0.255" Height="0.182" Width="0.545" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAIAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FrqViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Data" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Homework3.Model.IFrqData">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Homework3.Model.ISettings">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
